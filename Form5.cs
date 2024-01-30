@@ -30,7 +30,7 @@ namespace WindowsFormsApp1
         private void textBox2_KeyPress(object sender, KeyPressEventArgs e)
         {
             char ch = e.KeyChar;
-            if (!Char.IsLetter(ch) && ch != 8 & ch != 46 && ch != 20 && ch != 12 && ch != 32)
+            if (!Char.IsLetter(ch) && ch != 8 && ch != 46 && ch != 20 && ch != 12 && ch != 32)
              e.Handled = true;
         }
         void CreateNew()
